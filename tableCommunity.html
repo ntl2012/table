@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table </title>
+    <style>
+        .main{
+            border: 1px solid transparent;
+            width: 526px;
+            height: 218px;
+            border-radius: 12px;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+        }
+        .blank{
+            width: 40px;
+            height: 43.1px;
+        }
+        table th{
+            border: 1px solid black;
+            border-top: transparent;
+            margin: 0px;
+        }
+        table td{
+                border: 1px solid black;
+                margin: 0px;
+            }
+        .occupied{
+            width: 235px;
+            height: 43.1px;
+        }
+        .occupied-d{
+            width: 235px;
+            height: 43.1px;
+            background-color: #212020;
+        }
+        .main{
+            background-color: #3f3e3e;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header"> <span class="top"> table </span> </div>
+        <div class="body">
+            <table class="content-m" >
+                <tr>
+                    <th class="blank">     </th>
+                    <th class="occupied"> A </th>
+                    <th class="occupied"> B </th>
+                </tr>
+                <tr>
+                    <td class="blank"> 1 </td>
+                    <td class="occupied"> </td>
+                    <td class="occupied"> </td>
+                </tr>
+                <tr>
+                    <td class="blank"> 2 </td>
+                    <td class="occupied-d"> </td>
+                    <td class="occupied-d"> </td>
+                </tr>
+                <tr>
+                    <td class="blank"> 3 </td>
+                    <td class="occupied-d"> </td>
+                    <td class="occupied-d"> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
